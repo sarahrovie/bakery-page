@@ -1,0 +1,17 @@
+#menu-grid {
+  display: grid;
+}
+
+.menu-img {
+  height: 100px;
+  width: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.menu-item {
+  background-color: pink;
+  margin: 10px;
+  width: 100px;
+  aspect-ratio: 1/1;
+}
