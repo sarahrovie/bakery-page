@@ -16,31 +16,31 @@ export function menu() {
   <div id='menu-grid'>
     <div class="menu-item">
         <img src='${menuImg1}' alt='Bolo de morango' class='menu-img'/>
-        <p>Item</p>
+        <p>Bolos Confeitados</p>
     </div>
     <div class="menu-item">
         <img src='${menuImg2}' alt='Brigadeiros' class='menu-img'>
-        <p>Item</p>
+        <p>Docinhos</p>
     </div>
     <div class="menu-item">
         <img src='${menuImg3}' alt='Pudim' class='menu-img'>
-        <p>Item</p>
+        <p>Pudim</p>
     </div>
     <div class="menu-item">
         <img src='${menuImg4}' alt='Bolo no pote' class='menu-img'>
-        <p>Item</p>
+        <p>Bolo no Pote</p>
     </div>
     <div class="menu-item">
         <img src='${menuImg5}' alt='Torta' class='menu-img'>
-        <p>Item</p>
+        <p>Tortas</p>
     </div>
     <div class="menu-item">
         <img src='${menuImg6}' alt='Biscoitos' class='menu-img'>
-        <p>Item</p>
+        <p>Biscoitos Caseiros</p>
     </div>
     <div class="menu-item">
         <img src='${menuImg7}' alt='Cones' class='menu-img'>
-        <p>Item</p>
+        <p>Cones Recheados</p>
     </div>
   </div>
   `;
