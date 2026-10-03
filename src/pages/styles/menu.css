@@ -1,17 +1,25 @@
 #menu-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  place-items: center;
+  gap: 20px;
 }
 
 .menu-img {
-  height: 100px;
+  height: 160px;
   width: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 
 .menu-item {
-  background-color: pink;
-  margin: 10px;
-  width: 100px;
+  width: 200px;
   aspect-ratio: 1/1;
+  padding: 20px;
+}
+
+.menu-img,
+.menu-item {
+  border-radius: 10px;
+  border: 1px solid #3f1808;
 }

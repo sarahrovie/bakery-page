@@ -116,7 +116,7 @@ p {
   #content {
     width: 70%;
     padding: 2rem 4rem;
-    height: 350px;
+    height: auto;
   }
 }
 
