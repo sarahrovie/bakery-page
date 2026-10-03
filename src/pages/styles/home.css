@@ -1,23 +1,31 @@
-#logo-img {
-  width: 300px;
-  margin-bottom: 20px;
+#home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-@media (min-width: 1000px) {
+#home-content p:last-of-type {
+  margin-top: 5px;
+}
+
+#carouselFade {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
   #home-content {
     display: grid;
-    grid-template-columns: 2fr 4fr;
-    gap: 2rem;
-    align-items: start;
-    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
   }
 
   #home-content p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     align-self: center;
   }
 
-  #logo-img {
-    width: 400px;
+  #home-content .title {
+    font-size: 2.1rem;
   }
 }

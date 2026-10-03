@@ -79,7 +79,7 @@ nav .btns:hover {
   margin: 2rem 0;
   justify-self: center;
   align-self: start;
-  text-align: center;
+  text-align: justify;
   height: auto;
   width: 85%;
   background-color: #fff;
@@ -104,7 +104,6 @@ nav .btns:hover {
 
 p.title {
   font-size: 1.6rem;
-  margin-bottom: 20px;
   text-align: center;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -112,12 +111,7 @@ p.title {
 }
 
 p {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-}
-
-#logo-img {
-  width: 200px;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 600px) {
