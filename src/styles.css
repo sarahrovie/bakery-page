@@ -110,13 +110,35 @@ p.title {
 p {
   font-size: 1.3rem;
   text-align: justify;
+  margin-bottom: 20px;
+}
+
+#logo-img {
+  width: 200px;
 }
 
 @media (min-width: 600px) {
   #content {
     width: 70%;
     padding: 2rem 4rem;
-    height: auto;
+  }
+
+  p.title {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  #home-content {
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #home-content p {
+    font-size: 1.5rem;
   }
 }
 
@@ -126,8 +148,12 @@ p {
   }
 
   header #logo {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #3f1808;
+  }
+
+  #logo-img {
+    width: 250px;
   }
 
   #content {
