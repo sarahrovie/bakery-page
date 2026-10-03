@@ -3,7 +3,7 @@ import homeImg from '../assets/home-img1.jpg';
 import homeImg2 from '../assets/home-img2.jpg';
 import homeImg3 from '../assets/home-img3.jpg';
 
-export function home() {
+export const home = () => {
   const homeDiv = document.createElement('div');
   homeDiv.classList.add('content-div');
 
@@ -41,4 +41,4 @@ export function home() {
   homeDiv.innerHTML += homeContent;
 
   return homeDiv;
-}
+};
