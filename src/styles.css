@@ -113,7 +113,6 @@ p.title {
 
 p {
   font-size: 1.3rem;
-  text-align: justify;
   margin-bottom: 20px;
 }
 
@@ -123,8 +122,8 @@ p {
 
 @media (min-width: 600px) {
   #content {
-    width: 70%;
-    padding: 2rem 4rem;
+    width: 80%;
+    padding: 2rem 2.5rem;
   }
 
   p.title {
@@ -144,6 +143,5 @@ p {
 
   #content {
     width: 55%;
-    padding: 2rem 8rem;
   }
 }
