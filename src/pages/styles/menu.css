@@ -26,11 +26,11 @@
 
 .menu-item p {
   text-align: center;
-  color: #3f1808;
 }
 
 .menu-item:hover {
-  background-color: rgba(222, 255, 244, 0.699);
+  background-color: #3f1808;
+  color: #fff;
 }
 
 @media (min-width: 1024px) {

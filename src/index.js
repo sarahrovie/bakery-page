@@ -1,6 +1,7 @@
 import './styles.css';
 import { home } from './pages/home.js';
 import { menu } from './pages/menu.js';
+import { contact } from './pages/contact.js';
 
 let contentDiv = document.querySelector('#content');
 document.addEventListener('DOMContentLoaded', () => {
@@ -9,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const homeBtn = document.querySelector('#btn-home');
 const menuBtn = document.querySelector('#btn-menu');
-const contatoBtn = document.querySelector('#btn-contato');
+const contactBtn = document.querySelector('#btn-contato');
 
 function navigate(page) {
   contentDiv.innerHTML = '';
@@ -18,3 +19,4 @@ function navigate(page) {
 
 homeBtn.addEventListener('click', () => navigate(home()));
 menuBtn.addEventListener('click', () => navigate(menu()));
+contactBtn.addEventListener('click', () => navigate(contact()));

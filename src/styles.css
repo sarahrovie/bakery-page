@@ -55,7 +55,7 @@ header p {
   margin-bottom: 25px;
 }
 
-nav .btns {
+.btns {
   font-size: 1rem;
   margin: 5px;
   margin-bottom: 15px;
@@ -65,14 +65,11 @@ nav .btns {
   border-radius: 5px;
 }
 
-nav .btns:active,
-nav .btns:focus {
+.btns:active,
+.btns:focus,
+.btns:hover {
   background-color: #3f1808;
   color: #fff;
-}
-
-nav .btns:hover {
-  background-color: rgba(222, 255, 244, 0.699);
 }
 
 #content {

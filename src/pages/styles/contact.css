@@ -1,0 +1,17 @@
+#form-contact {
+  width: 90%;
+}
+
+#form-contact button {
+  background-color: #3f1808;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 0;
+  width: 100px;
+}
+
+#contact-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
