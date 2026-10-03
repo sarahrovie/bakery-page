@@ -1,3 +1,4 @@
+import './styles/home.css';
 import logoImg from '../assets/logo-delicias-de-mae.png';
 
 export function home() {
