@@ -7,6 +7,7 @@
 
 .menu-img {
   height: 180px;
+  align-self: center;
   width: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -14,19 +15,18 @@
 }
 
 .menu-item {
+  display: flex;
+  flex-direction: column;
   width: 220px;
   height: auto;
   aspect-ratio: 1/1;
+  border-radius: 10px;
+  border: 2px solid #3f1808;
 }
 
 .menu-item p {
   text-align: center;
   color: #3f1808;
-}
-
-.menu-item {
-  border-radius: 10px;
-  border: 2px solid #3f1808;
 }
 
 .menu-item:hover {
