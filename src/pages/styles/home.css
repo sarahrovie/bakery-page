@@ -10,10 +10,14 @@
 }
 
 #carouselFade {
-  width: 100%;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 992px) {
+  #carouselFade {
+    margin-bottom: 0;
+  }
+
   #home-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
